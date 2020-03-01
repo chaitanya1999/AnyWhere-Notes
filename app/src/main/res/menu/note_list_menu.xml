@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ac_create_note"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Add Note"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ac_del_multiple"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Delete Notes"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ac_search_note"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search Note"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+</menu>

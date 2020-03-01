@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ctxt_view_note"
+        android:title="View Note" />
+    <item
+        android:id="@+id/ctxt_edit_name"
+        android:title="Edit Note Name" />
+    <item
+        android:id="@+id/ctxt_del_note"
+        android:title="Delete Note" />
+</menu>
